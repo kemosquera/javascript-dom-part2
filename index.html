@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>User Information Form</h2>
+        <form id="main-form">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address"><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city"><br>
+
+            <label for="province">Province:</label>
+            <input type="text" id="province"><br>
+
+            <label>Membership Type:</label><br>
+            <input type="radio" name="membership" value="Premium" id="premium" checked>
+            <label for="premium">Premium Membership</label><br>
+
+            <input type="radio" name="membership" value="Standard" id="standard">
+            <label for="standard">Standard Membership</label><br>
+
+            <input type="radio" name="membership" value="Basic" id="basic">
+            <label for="basic">Basic Membership</label><br>
+
+            <button type="button" id="submit-btn">Submit</button>
+            <button type="reset">Cancel</button>
+        </form>
+
+        <div id="output"></div>
+    </main>
+
+    <footer>
+        <p>Georgian @ ILAC - JavaScript Assignment#3</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel Functions</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Excel Function Simulator</h2>
+        <label for="numbers">Enter numbers separated by spaces:</label>
+        <input type="text" id="numbers"><br>
+
+        <input type="radio" name="operation" id="sum" value="sum" checked>
+        <label for="sum">AutoSum</label>
+
+        <input type="radio" name="operation" id="average" value="average">
+        <label for="average">Average</label>
+
+        <input type="radio" name="operation" id="max" value="max">
+        <label for="max">Max</label>
+
+        <input type="radio" name="operation" id="min" value="min">
+        <label for="min">Min</label><br>
+
+        <button type="button" id="calculate-btn">Calculate</button>
+
+        <div id="result">Result will be displayed here</div>
+    </main>
+
+    <footer>
+        <p>Georgian @ ILAC - JavaScript Assignment#3</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
